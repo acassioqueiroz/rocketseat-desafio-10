@@ -23,6 +23,22 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "http://www.sushicampogrande.com.br/pedido/wp-content/uploads/2018/09/m_32671479296142-510x438.png",
+      "name": "asdfas",
+      "price": "123",
+      "description": "asdf",
+      "id": 6,
+      "available": true
+    },
+    {
+      "available": true,
+      "image": "http://www.sushicampogrande.com.br/pedido/wp-content/uploads/2018/09/m_32671479296142-510x438.png",
+      "name": "temaki",
+      "price": "39,90",
+      "description": "Temaki com Salmão e Cream Cheese",
+      "id": 7
     }
   ]
 }
