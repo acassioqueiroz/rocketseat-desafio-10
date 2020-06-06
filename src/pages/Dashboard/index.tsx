@@ -65,7 +65,7 @@ const Dashboard: React.FC = () => {
   async function handleDeleteFood(id: number): Promise<void> {
     await api.delete(`/foods/${id}`);
     const foodDeleteIndex = foods.findIndex(foodItem => foodItem.id === id);
-    if (foodDeleteIndex) {
+    if (foodDeleteIndex > -1) {
       const foodsClone = [...foods];
       foodsClone.splice(foodDeleteIndex, 1);
       setFoods(foodsClone);
